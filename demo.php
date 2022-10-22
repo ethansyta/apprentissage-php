@@ -1,17 +1,23 @@
+
+
 <?php
-$action = (int)readline('entrez votre action : (1: attaquer, 2: defendre, 3: ne rien faire)');
+$action = (int)readline('entrez votre action : (1: manger, 2: bouger , 3: marchez)');
 
 switch($action){
     case 1:
-        echo 'j\'attaque!';
+        echo 'manger';
         break;
+    
     case 2:
-        echo 'je defends';
+        echo 'bouger';
         break;
+
     case 3:
-        echo 'je ne fais rien';
+        echo 'marchez';
         break;
+    
     default:
-        echo 'commande incorrecte';
+        echo 'mauvaise commande';
 }
+
 ?>
